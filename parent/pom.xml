@@ -623,6 +623,14 @@
         <version.org.osgi.compendium>4.2.0</version.org.osgi.compendium>
         <version.org.apache.felix.scr.ds-annotations>1.2.10</version.org.apache.felix.scr.ds-annotations>
         <maven.felix.scr.plugin.version>1.25.0</maven.felix.scr.plugin.version>
+
+        <maven.checkstyle.plugin.version>3.0.0</maven.checkstyle.plugin.version>
+        <maven.spotbugsplugin.version>3.1.10</maven.spotbugsplugin.version>
+        <maven.spotbugsplugin.exclude.file>spotbugs-exclude.xml</maven.spotbugsplugin.exclude.file>
+        <maven.spotbugs.dependency.version>3.1.11</maven.spotbugs.dependency.version>
+        <version.jinjava>2.4.14</version.jinjava>
+        <version.cava-toml>0.5.0</version.cava-toml>
+        <version.checkstyle>7.8.2</version.checkstyle>
     </properties>
 
     <dependencyManagement>
