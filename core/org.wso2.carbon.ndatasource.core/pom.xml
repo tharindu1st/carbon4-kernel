@@ -85,6 +85,7 @@
                             org.wso2.carbon.ndatasource.core.*
                         </Export-Package>
                         <Import-Package>
+                            org.apache.axiom.*; version="${imp.pkg.version.axiom}",
                             javax.xml.parsers;version=0.0.0,
                             javax.xml.bind;version="[0.0.0, 1.0.0)",
                             javax.xml.bind.annotation;version="[0.0.0, 1.0.0)",
