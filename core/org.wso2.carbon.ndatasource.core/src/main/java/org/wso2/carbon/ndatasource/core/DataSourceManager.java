@@ -174,8 +174,8 @@ public class DataSourceManager {
 
         try {
             JAXBContext ctx = JAXBContext.newInstance(SystemDataSourcesConfiguration.class);
-            OMElement doc = DataSourceUtils.convertToDocument(sysDSFile);
-            DataSourceUtils.secureResolveDocument(doc, true);
+            OMElement doc = DataSourceUtils.convertToOMElement(sysDSFile);
+            DataSourceUtils.secureResolveOMElement(doc, true);
             SystemDataSourcesConfiguration sysDS = (SystemDataSourcesConfiguration) ctx.createUnmarshaller().
                     unmarshal(doc.getXMLStreamReader());
             this.addDataSourceProviders(sysDS.getProviders());
