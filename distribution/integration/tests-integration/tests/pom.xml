@@ -381,7 +381,7 @@
         <dependency>
             <groupId>org.wso2.carbon.automationutils</groupId>
             <artifactId>org.wso2.carbon.integration.common.utils</artifactId>
-            <version>4.4.1</version>
+            <version>4.4.2</version>
         </dependency>
     </dependencies>
 
